@@ -1,0 +1,10 @@
+<h1 *ngIf="!flight">Loading...</h1>
+
+<div *ngIf="flight">
+    <h1>{{flight.code}}</h1>
+    <h1>From: {{flight.from}}</h1>
+    <h1>To: {{flight.to}}</h1>
+    <h1>Price: {{flight.price}}</h1>
+</div>
+
+<!-- <button (click)="goBack()"></button> -->
